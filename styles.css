@@ -1,0 +1,20 @@
+button{
+    transition:300ms;
+}
+.blessings:hover{
+    opacity:80%;
+    background-color: rgb(228, 68, 33);
+   }
+  p {
+      animation: arrowdown 1000ms infinite alternate-reverse;
+      
+  }
+    @keyframes arrowdown{
+        0%{
+           transform:translateY(0);
+        }
+
+        100%{
+           transform:translateY(16px);
+        }
+    }
